@@ -15,3 +15,7 @@
 1. React
 2. Angular
 3. Ionic 
+
+### Разлика помеѓу Progressive Web Applications и Native APP
+
+<img src="https://miro.medium.com/max/2400/1*m3qE6n7UfdA4BED8lNegKg.png" alt="pwa" />
