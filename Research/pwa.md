@@ -18,8 +18,6 @@
 
 ### Разлика помеѓу Progressive Web Applications и Native APP
 
-<<<<<<< HEAD:Research/pwa.md
+
 <img src="https://miro.medium.com/max/2400/1*m3qE6n7UfdA4BED8lNegKg.png" alt="pwa" />
-=======
-<img src="https://miro.medium.com/max/2400/1*m3qE6n7UfdA4BED8lNegKg.png" alt="pwa" />
->>>>>>> d0a533a04c06102c9d271a8a726df5fe5538cd7c:Teorija/PWA/README.md
+
