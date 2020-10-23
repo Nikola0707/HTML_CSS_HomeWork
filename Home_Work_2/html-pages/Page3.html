@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h1>Please fill in your information</h1>
+<fieldset>
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td colspan="3"><label for="fullName">Your Full Name</label></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="text" name="fullName" id="fullName"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><label for="fullName">Date of Birth</label></td>
+                </tr>  
+                <tr>
+                    <td><input type="number" placeholder="Day"></td>
+                    <td><input type="number" placeholder="Month"></td>
+                    <td><input type="number" placeholder="Year"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</fieldset>
+<br>
+    <fieldset>
+        <form >
+            <label>
+                <input type="radio" name="choose" id="choose">
+                Tax ID
+            </label>
+            <label>
+                <input type="radio" name="choose" id="choose">
+                Social Security number
+                <input type="text" name="socialSecNum" id="socialSecNum" placeholder="9 Digit Number">
+            </label>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="citizenship">Citizenship</label></td>                        
+                        <td><label for="country">Country</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select name="citizenship" id="citizenship">
+                                <option value="" selected>Macedonian</option>
+                                <option value="US Citizen" >US Citizen</option>
+                                <option value="Albanian">Albanian</option>
+                                <option value="Armenians">Armenians</option>
+                                <option value="Chinese">Chinese</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="country" id="country">
+                                <option value="" selected>Macedonia</option>
+                                <option value="US Citizen" >USA</option>
+                                <option value="Albanian">Albania</option>
+                                <option value="Armenians">Armenia</option>
+                                <option value="Chinese">China</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="dayPhone">Day Phone</label></td>                        
+                        <td><label for="eveningPhone">Evening Phone</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="dayPhone" id="dayPhone" placeholder="(xxx) xxx-xxxx">
+                        </td>
+                        <td>
+                            <input type="text" name="eveningPhone" id="eveningPhone" placeholder="(xxx) xxx-xxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="addressLineOne">Address Line 1</label></td>                        
+                        <td><label for="addressLineTwo">Address Line 2</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" name="addressLineOne" id="addressLineOne" placeholder="(xxx) xxx-xxxx">
+                        </td>
+                        <td>
+                            <input type="text" name="addressLineTwo" id="addressLineTwo" placeholder="(xxx) xxx-xxxx">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="city">City</label></td>
+                        <td><label for="state">State</label></td>
+                        <td><label for="zipCode">Zip Code</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="city" id="city" placeholder="(xxx) xxx-xxxx"></td>
+                        <td>
+                            <select name="state" id="state">
+                                <option value="" selected></option>
+                                <option value="">Alabama</option>
+                                <option value="">Alaska</option>
+                                <option value="">Hawaii</option>
+                                <option value="">Oklahoma</option>
+                                <option value="">Washington</option>
+                                <option value="">West Virginia</option>
+                                <option value="">Wyoming</option>
+                            </select>
+                        </td>
+                        <td><input type="number" name="zipCode" id="zipCode"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="backupOrInvest">
+                                <input type="radio" name="backupOrInvest" id="backup">
+                                Subject to backup withholding
+                            </label>
+                        </td>
+                        <td>
+                            <label for="backupOrInvest">
+                                <input type="radio" name="backupOrInvest" id="invest" checked>
+                                I want to reinvest my dividends
+                            </label>
+                        </td>                        
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+    <br>
+    <fieldset>
+        <form>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="optionalMailingAddress">
+                                <input type="radio" name="optionalMailingAddress" id="optionalMailingAddress">
+                                +Add optional mailing address
+                            </label>
+                        </td>                        
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
