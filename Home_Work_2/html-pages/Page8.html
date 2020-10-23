@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h4>Create New Work Flow</h4>
+    <table width="800px">
+        <body>
+            <tr>
+                <td colspan="8"><label for="flowName">Flow Name:</label></td>                
+            </tr>
+            <tr>
+                <td colspan="8"><input type="text" name="flowName" id="flowName" placeholder="Testing work flow"></td>
+            </tr>
+            <tr>
+                <td colspan="8"><label for="nameDep">Name Department</label></td>                
+            </tr>
+            <tr>
+                <td colspan="8">
+                    <select name="nameDep" id="nameDep">
+                        <option value="">Engineering Maintance</option>
+                        <option value="Administration">Administration</option>
+                        <option value="it">IT</option>
+                        <option value="Human Resources">Human Resources</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="8"><button><ion-icon name="add-outline"></ion-icon>Add Flow</button></td>
+            </tr>
+        </body>
+    </table>
+    <br>
+    <table border>
+        <thead>            
+            <tr>
+                <th>Step Number</th>
+                <th>Status</th>
+                <th>Author</th>
+                <th>SentBack</th>
+                <th>Check</th>
+                <th>Approve</th>
+                <th>Reject</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Awainting Approval Supervisor</td>
+                <td>approvalsupervisor@gmail.com</td>
+                <td><input type="checkbox" name="sendBack" id="sendBack"></td>
+                <td><input type="checkbox" name="check" id="check" checked></td>
+                <td><input type="checkbox" name="approve" id="approve"></td>
+                <td><input type="checkbox" name="reject" id="reject"></td>
+                <td><button><ion-icon name="trash-outline"></ion-icon> Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Awaiting Accepted by Head Department</td>
+                <td>approvalheaddepartment@gmail.com</td>
+                <td><input type="checkbox" name="sendBack" id="sendBack" checked></td>
+                <td><input type="checkbox" name="check" id="check" ></td>
+                <td><input type="checkbox" name="approve" id="approve" checked></td>
+                <td><input type="checkbox" name="reject" id="reject" checked></td>
+                <td><button><ion-icon name="trash-outline"></ion-icon> Delete</button></td>
+            </tr>
+            <tr>
+                <td colspan="4"><button>Back</button></td>               
+                <td colspan="4"><button>Submit</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+</html>
+
