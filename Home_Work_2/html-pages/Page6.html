@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>License details</legend>
+         <ul>
+             <li><label>Email address <input type="email"></label></li>
+             <li><label>Website <input type="text" placeholder="http://www.examle.com/"></label></li>
+             <li><label>Number of licenses <input type="number" placeholder="How many to buy(1-10)"></label></li>
+         </ul>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Billing details</legend>
+         <ul>
+             <li><label>Name <input type="email" placeholder="First Last"></label></li>
+             <li><label>Address <textarea name="" id="" cols="30" rows="2" placeholder="House number, street, city, state"></textarea></label></li>
+             <li><label>Postal Code <input type="number" placeholder="Postal code or zip code"></label></li>
+             <li>
+                <label>Country 
+                    <select name="country" id="country">
+                        <option value="">Macedonia</option>
+                        <option value="USA">USA</option>
+                        <option value="China">China</option>
+                        <option value="Albania">Albania</option>
+                    </select>
+                </label>
+            </li>
+            <li>
+                <label>Phone (optional) <input type="number" placeholder="Include country prefi, e.q"> </label>
+            </li>
+         </ul>
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend>Payment deails</legend>
+            <ul>
+                <li> <label>Card number <input type="text" placeholder="A shown on the front of you"> </label> </li>
+                <li> <label>CVV code <input type="text" placeholder="3-digit number on back of the card"> </label> </li>
+                <li> <label>Expiry date <input type="date" placeholder="YYYY-MM"> </label> </li>
+            </ul>
+        </fieldset>
+    </form>
+    <button type="submit">Place Your Order</button>
+</body>
+</html>
