@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+table{
+    margin: 100px auto;
+    width: 600px;
+    height: 300px;
+    border: 7px solid #deae32;
+    padding: 10px;
+    text-align: center;
+    border-collapse:separate; 
+    border-spacing: 0 5px;
+}
+th{
+  padding-bottom: 20px; 
+  font-weight: normal; 
+}
+.month-name{
+    padding: 0 100px;
+}
+ion-icon{
+    font-size: 22px;
+}
+span{
+    border-radius: 50%;
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+    padding: 10% 0%;
+    border: solid 6px #fff;
+}
+.bg-pink{
+    background: #ff8498;
+}
+.bg-blue{
+    background: #6693cc;
+}
+.bg-grey{
+    background: #dadada;
+}
+.color-grey{
+    color: #dadada;
+}
+.text-white{
+    color: #fff;
+}
