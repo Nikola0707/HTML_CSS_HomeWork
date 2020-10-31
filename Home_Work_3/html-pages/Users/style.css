@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #91ced3;
+}
+table{
+    margin: 100px auto;
+    width: 50vw;
+    border-collapse: collapse;
+    color: #327a81;
+    font-weight: 700;
+}
+
+.users{
+    background: #327a81;
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 15px 0;
+}
+td{
+    text-align: center;
+}
+ion-icon{
+    font-size: 50px;
+}
+th{
+    padding: 10px 0;
+}
+td:nth-child(5){
+    padding: 10px 10px;
+    width: 200px;
+    text-align: left;
+}
+tr:nth-child(odd){
+    background: #fff;
+}
+tr:nth-child(even){
+    background: #daeff1;
+}
+.border-radius-left-bottom{
+    border-bottom-left-radius: 10px;
+}
+.border-radius-right-bottom{
+    border-bottom-right-radius: 10px;
+}
