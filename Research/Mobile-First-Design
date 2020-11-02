@@ -1,0 +1,20 @@
+# Mobile First Design
+
+** Mobile-first design ** is a design philosophy that aims to create better experiences for users by starting the design process from the smallest of screens: mobile. 
+### What is Mobile First Design?
+
+1. Responsive Web Design 
+    Responsive web design is a web design method that enables web to fit the screens of different devices automatically, displaying
+    the content in a way that people feel comfortable. This greatly reduces users’ operations like panning, zooming and scrolling when browsing the web.
+2. Progressive Advancement” & “Graceful Degradation
+    These two concepts were put forward before responsive web design. In order to make web or application interface display reasonably on different devices.
+    #### Progressive Advancement
+        means that when we design a product, first we build a version for the relatively lower browser (like that on a mobile phone). This version includes
+        the most basic functions & features. After that, we tend to the advanced version for a tablet or PC, which is created by adding interactions, more
+        complicated effects, etc. on the basic version for a better user experience.
+    #### Graceful Degradation
+        starts the product design from an advanced end like desktop and builds a version with well-rounded features at the beginning. Then designers make
+        the product compatible with mobile ends by cutting some functions or contents.
+3. Mobile first is content first
+    Content takes center stage in mobile first design. 
+
