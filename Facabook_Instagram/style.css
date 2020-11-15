@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.facebook-title img{
+    width: 300px;
+    height: 105px;
+}
+.facebook-title h2{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    margin: 0;
+    padding-left: 30px;
+    font-weight: normal;
+}
+.login-form{
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.login-form form{
+    width: 390px;
+}
+input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.login-form input{
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    padding: 16px 0;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+}
+.btn-login{
+    width: 100%;
+    margin: 10px 10px 10px 0;
+    padding: 10px 0;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.forgot-pass{
+    text-align: center;
+    margin-top: 16px;
+}
+.forgot-pass a{
+    color: #1877f2;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.login-form hr{
+    border: 1px solid #dadde1;
+    margin: 20px 0;
+}
+.create-new-acc{
+    margin-top: 40px;
+    text-align: center;
+}
+.create-new-acc label{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.create-page{
+    text-align: right;
+}
+.create-page p{
+    margin-top: 40px;
+    margin-right: 20%;
+}
+.signUp-header{
+    display: flex;
+}
+.signUp-header h2,
+.signUp-header p{
+    margin: 0;
+}
+.signUp-container{
+    visibility: hidden;
+    background-color: rgba(255, 255, 255, .8);
+    border:1px solid red;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh
+}
+#create-new-acc-btn:checked ~ .signUp-container{
+    visibility: visible;
+}
+#close-icon:checked ~ .signUp-container{
+    visibility: hidden;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.signUp-header{
+    background: #fff;
+    width: 430px;
+    margin: 70px auto 0;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #dadde1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.signUp-header img{
+    width: 30px;
+    height: 30px;
+}
+.div-form{
+    padding: 10px;
+    background: #fff;
+    width: 430px;
+    margin: 0 auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.signUp-first-last-name{
+    display: flex;
+    justify-content: space-between;
+}
+.signUp-first-last-name input{
+    margin-top: 10px;
+    width: 48%;
+    padding: 10px 0;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background: #f5f6f7;
+}
+.number-password div{
+    width: 430px;
+}
+.number-password div input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    background: #f5f6f7;
+}
+.month-day-year{
+    display: flex;
+    justify-content: space-between;
+}
+#birth p{
+    margin-bottom: 0;
+}
+.month-day-year div{
+    width: 30%;
+}
+.month-day-year select{
+    margin-top: 0;
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+}
+.gender-align{
+    display: flex;
+    justify-content: space-between;
+}
+#gender p{
+    margin-bottom: 0;
+}
+ion-icon{
+    color: #606770;
+    vertical-align: bottom;
+}
+.gender-align div{
+    margin-top: 0;
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+}
+.terms-policy{
+    color: #777;
+    font-size: 11px;
+}
+.signUp-btn{
+    text-align: center;
+}
+.signUp-btn button{
+    width: 50%;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
